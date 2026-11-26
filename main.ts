@@ -1,5 +1,5 @@
-// Entry point for the make.fun checker: copy entry.png to the output dir.
-// Uses MAKEFUN_OUTPUT_DIR when set, otherwise /output. Writes identical bytes every run.
+// Entry point for news-image-20261125.
+// Copies the pre-rendered entry.png into the grader's output directory.
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
